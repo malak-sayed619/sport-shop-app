@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sport_shop_app/core/auth/signin.dart';
 import 'package:sport_shop_app/features/allproduct.dart';
 import 'package:sport_shop_app/features/discover.dart';
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         //  colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DiscoverScreen(),
+      home: LoginScreen(),
     );
   }
 }
